@@ -1,19 +1,3 @@
-% Solids_of_Revolution.m
-%
-% This script takes a function, rotates it about a specified axis, and calculates the volume of the solid
-% The script is currently limited in that functions can only be entered in the form y=f(x). A new version will allow for entering of functions as x=f(y).
-% Also you are limited to revolving around the x-axis (i.e. y=0) or lines parallel to the x-axis (i.e. y=k, where k can be poisitve or negative).
-% A new version will allow for revolving around the y-axis (x=0) and lines parallel to it.
-% However a current workaround is to switch all your x's and y's and perform the problem as such.  The shape will look the same but will be oriented
-% differently.
-%
-% For example, to revolve the region bounded by y=x^2 and y=0 from x=0 to x=2 around the line x=5,
-% revolve the region bounded by x=y^2 and y=2 around from x=0 to x=4 around the line y=5, but enter in x=y^2 as y=x^0.5.
-% The volume, surface area, and arc lengths values will remain the same.
-%
-% Author: A. Bolu Ajiboye
-% Created: Sunday, July 08, 2007
-% Last Modified: Tuesday, July 10, 2007 by ABA
 
 clc
 
